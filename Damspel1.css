@@ -1,0 +1,84 @@
+body {
+	background-color: white;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.table{
+/* Totale grootte bord */
+	/* position: relative;                   Om bord in het midden te krijgen */
+	width: 500px;
+	height: 500px;
+	/* margin: 0 auto; */
+}
+.Vlak{
+/* Grootte van 1 vlakje */
+	float: left;
+	width: 50px;
+	height: 50px;
+}
+.witvlak{
+/* Kleur witte vlakjes */
+	background-color: #e3e3e3;
+}
+.zwartvlak{
+/* Kleur zwarte vlakjes */
+	background-color :#5e5e5e;
+}
+/* .clear_float{
+	clear: both;
+} */
+
+.speler{
+    /* Grootte van spelervlakje */
+        float: left;
+        width: 200px;
+        height: 50px;
+}
+.speler1{
+    /* Kleur speler 1 vlakje*/
+        background-color: #51cb81;
+    }
+.speler2{
+    /* Kleur speler 2 vlakje */
+        background-color :#51cb81;
+    }
+
+.steen{
+    /* vorm van steen */
+	/* top:5px;
+	left:5px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%; */
+	position: absolute;
+	border: 4px solid white;
+	cursor: pointer;	
+}
+.roodsteen{ 
+    /* kleur van speler 1 */
+    width: 46px;
+    height: 46px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    background:#f44242;
+    margin: auto;
+}
+.blauwsteen{
+    /* kleur van speler 2 */
+    width: 46px;
+    height: 46px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    background: #41a0f4;
+    margin: auto;
+
+}
+.rooddam{ 
+    /* kleur van speler 1 */
+	background: #a6002f;
+}
+.blauwdam{
+    /* kleur van speler 2 */
+	background: #002c61;
+}
